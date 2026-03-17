@@ -1,0 +1,18 @@
+{
+  "data_dir": "./data",
+  "output_dir": "./checkpoints",
+  "epochs": 30,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-05,
+  "dropout": 0.3,
+  "pretrained": true,
+  "freeze_backbone": false,
+  "unfreeze_epoch": 5,
+  "num_workers": 4,
+  "seed": 42,
+  "device": "auto",
+  "save_every": 5,
+  "best_val_acc": 0.0,
+  "timestamp": "2026-02-12T00:45:54.325459"
+}
